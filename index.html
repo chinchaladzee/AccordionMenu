@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion Responsive Menu</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- For icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Accordion -->
+    <div class="accordion">
+      <div class="card">
+        <div class="card_hader" id="header">
+          <h3>What is it API?</h3>
+          <span class="fa fa-plus"></span>
+        </div>
+        <div class="card_body card-active">
+          <p>
+            When you use an application on your mobile phone, the application
+            connects to the Internet and sends data to a server. The server then
+            retrieves that data, interprets it, performs the necessary actions
+            and sends it back to your phone. The application then interprets
+            that data and presents you with the information you wanted in a
+            readable way.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_hader" id="header">
+          <h3>What is it Rest?</h3>
+          <span class="fa fa-minus"></span>
+        </div>
+        <div class="card_body">
+          <p>
+            REST, or REpresentational State Transfer, is an architectural style
+            for providing standards between computer systems on the web, making
+            it easier for systems to communicate with each other. REST-compliant
+            systems, often called RESTful systems, are characterized by how they
+            are stateless and separate the concerns of client and server. We
+            will go into what these terms mean and why they are beneficial
+            characteristics for services on the Web.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card_hader" id="header">
+          <h3>What is it HTML?</h3>
+          <span class="fa fa-minus"></span>
+        </div>
+        <div class="card_body">
+          <p>
+            HTML (HyperText Markup Language) is the code that is used to
+            structure a web page and its content. For example, content could be
+            structured within a set of paragraphs, a list of bulleted points, or
+            using images and data tables
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Javascript -->
+    <script src="./script/jquery-3.6.0.js"></script>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
